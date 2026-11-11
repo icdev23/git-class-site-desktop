@@ -9,5 +9,5 @@ document.getElementById("botao").addEventListener("click", () => {
 
 document.getElementById("zerar").addEventListener("click", () => {
     cliques = 0;
-    contador.textContent = `Cliques: ${cliques}`;
+    contador.textContent = `Total: ${cliques}`;
 });
